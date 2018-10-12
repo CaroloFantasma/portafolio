@@ -10,17 +10,19 @@
   <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Fjalla+One|Sacramento|Raleway:800,900" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <title>Carolina Lastra</title>
 </head>
 
-<body> 
+<body>
   <!-- Inicio primera pantalla -->
   <header id="navBarMenu">
-    <nav>
+    <nav id="navbar">
       <!-- Inicio navbar -->
-      <div class="navbar navbar-expand-lg nav">
+      <div class="navbar navbar-expand-lg nav" id="menu">
         <div class="nav-header">
           <div class="nav-title">
             <a onclick="navBarMenu()">Carolina Lastra</a>
@@ -38,7 +40,7 @@
           <a onclick="aboutMe()">Conóceme</a>
           <a onclick="projects()">Mis trabajos</a>
           <a onclick="skills()">Habilidades</a>
-          <a href="" target="">Redes de contacto</a>
+          <a onclick="contact()">Redes de contacto</a>
         </div>
       </div>
     </nav>
@@ -52,110 +54,169 @@
   <!-- Image -->
   <div class="stars">
     <div class="twinkling">
-      <div class="img-fluid" alt="Responsive image" id="laptopDiv">
-        <img src="../assets/img/frontenddeveloper-e1483738375569.png" class="img-fluid" id="developerImg" alt="Responsive image">
+      <div class="clouds">
       </div>
     </div>
-  </div>
-  <!-- Cierre image -->
-  <!-- Cierre primera pantalla -->
+    <!-- Cierre image -->
+    <!-- Cierre primera pantalla -->
 
-  <!-- Inicio sección sobre mí -->
-  <section id="aboutMe">
-    <div class="wrapper">
-      <div class="product-img">
-        <img src="../assets/img/Carolo - copia.jpg" height="330" width="317">
-      </div>
-      <div class="product-info">
-        <div class="product-text">
-          <h1 id="my name">Carolina Lastra</h1>
-          <h2 id="subtitleSkills">Front-end developer</h2>
-          <p id="aboutMeText">Front-end developer de Laboratoria Chile y traductora inglés-castellano. Observadora y detallista, me desenvuelvo muy bien trabajando tanto en equipo como individualmente.   Puntual y responsable. </p>
+    <!-- Inicio sección sobre mí -->
+    <section id="aboutMe">
+      <div class="stars">
+        <div class="twinkling">
+          <div class="wrapper">
+            <div class="product-img">
+              <img src="../assets/img/Carolo - copia.jpg" height="330" width="317">
+            </div>
+            <div class="product-info">
+              <div class="product-text">
+                <h1 id="my name">Carolina Lastra</h1>
+                <h2 id="subtitleSkills">Front-end developer</h2>
+                <p id="aboutMeText">Front-end developer de Laboratoria Chile y traductora inglés-castellano.
+                  Observadora
+                  y
+                  detallista, me desenvuelvo muy bien trabajando tanto en equipo como individualmente. Puntual y
+                  responsable. </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- Cierre sección sobre mí  -->
+    </section>
+    <!-- Cierre sección sobre mí  -->
 
-  <!-- Inicio sección proyectos -->
-  <div class="container-projects" id="projects">
-    <div class="row" id="proyectos">
-      <div class="col-md-6 mx-auto text-center">
-        <figure class="snip1256">
-          <img src="../assets/img/interpets.jpg" alt="sample42" />
-          <figcaption>
-            <h3>InterPets</h3>
-            <p>interPets, red social creada con la finalidad de reunir a dueños de perros y gatos para que puedan interactuar, compartir datos, recomendaciones y opiniones.</p><a href="https://github.com/CaroloFantasma/scl-2018-05-bc-core-am-socialnetwork" target="_blank" class="read-more">Repositorio</a> <a href="https://evelyngalvez.github.io/scl-2018-05-bc-core-am-socialnetwork/" target="_blank" class="read-more">Demo</a>
-          </figcaption>
-        </figure>
-        <figure class="snip1256 hover">
-          <img src="../assets/img/celibook2.jpg" alt="sample22" />
-          <figcaption>
-            <h3>Celibook</h3>
-            <p>¡Bienvenidos a una red social creada especialmente para personas intolerantes al gluten y celiacos!</p><a href="https://github.com/CaroloFantasma/redsocial-framework-angular" target="_blank" class="read-more">Repositorio</a> <a href="https://celibook-frameworks.firebaseapp.com/" target="_blank"class="read-more">Demo</a>
-          </figcaption>
-        </figure>
+    <!-- Inicio sección proyectos -->
+    <div class="container-projects" id="projects">
+      <div class="stars">
+        <div class="twinkling">
+          <div class="row" id="proyectos">
+            <div class="col-md-10 mx-auto text-center">
+              <figure class="snip1256">
+                <img src="../assets/img/interpets.jpg" alt="sample42" />
+                <figcaption>
+                  <h3>InterPets</h3>
+                  <p>interPets, red social creada con la finalidad de reunir a dueños de perros y gatos para que puedan
+                    interactuar, compartir datos, recomendaciones y opiniones.</p><a href="https://github.com/CaroloFantasma/scl-2018-05-bc-core-am-socialnetwork"
+                    target="_blank" class="read-more">Repositorio</a> <a href="https://evelyngalvez.github.io/scl-2018-05-bc-core-am-socialnetwork/"
+                    target="_blank" class="read-more">Demo</a>
+                </figcaption>
+              </figure>
+              <figure class="snip1256">
+                <img src="../assets/img/celibook2.jpg" alt="sample22" />
+                <figcaption>
+                  <h3>Celibook</h3>
+                  <p>¡Bienvenidos a una red social creada especialmente para personas intolerantes al gluten y
+                    celiacos!</p><a href="https://github.com/CaroloFantasma/redsocial-framework-angular" target="_blank"
+                    class="read-more">Repositorio</a>
+                  <a href="https://celibook-frameworks.firebaseapp.com/" target="_blank" class="read-more">Demo</a>
+                </figcaption>
+              </figure>
+
+              <!-- <div class="row">
+          <div class="col-md-6 mx-auto text-center"> -->
+              <figure class="snip1256">
+                <img src="../assets/img/translab.jpg" alt="sample42" />
+                <figcaption>
+                  <h3>Translab</h3>
+                  <p>Aplicación web mobile para consultar nuestro saldo Bip, entre otras funcionalidades para calcular
+                    saldo.</p><a href="https://github.com/CaroloFantasma/trans-lab-nueva-version" target="_blank" class="read-more">Repositorio</a>
+                  <a href="https://carolofantasma.github.io/trans-lab-nueva-version/index.html#" target="_blank" class="read-more">Demo</a>
+                </figcaption>
+              </figure>
+              <figure class="snip1256">
+                <img src="../assets/img/pinterest.jpg" alt="sample22" />
+                <figcaption>
+                  <h3>Pinterest</h3>
+                  <p>Réplica de Pinterest: Recreación del diseño de la página de Pinterest en versión desktop.</p><a
+                    href="https://github.com/CaroloFantasma/pinterest" target="_blank" class="read-more">Repositorio</a>
+                  <a href="https://carolofantasma.github.io/pinterest/" target="_blank" class="read-more">Demo</a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6 mx-auto text-center">
-        <figure class="snip1256">
-          <img src="../assets/img/translab.jpg" alt="sample42" />
-          <figcaption>
-            <h3>Translab</h3>
-            <p>Aplicación web mobile para consultar nuestro saldo Bip, entre otras funcionalidades para calcular saldo.</p><a href="https://github.com/CaroloFantasma/trans-lab-nueva-version" target="_blank" class="read-more">Repositorio</a> <a href="https://carolofantasma.github.io/trans-lab-nueva-version/index.html#"target="_blank" class="read-more">Demo</a>
-          </figcaption>
-        </figure>
-        <figure class="snip1256 hover">
-          <img src="../assets/img/pinterest2.png" alt="sample22" />
-          <figcaption>
-            <h3>Pinterest</h3>
-            <p>Réplica de Pinterest: Recreación del diseño de la página de Pinterest en versión desktop.</p><a href="https://github.com/CaroloFantasma/pinterest" target="_blank" class="read-more">Repositorio</a> <a href="https://carolofantasma.github.io/pinterest/" target="_blank" class="read-more">Demo</a>
-          </figcaption>
-        </figure>
+      <!-- </div>
+    </div> -->
+      <!-- Cierre sección proyectos -->
+
+      <!-- Inicio sección habilidades -->
+      <div class="container-fluid" id="skills">
+        <div class="stars">
+          <div class="twinkling">
+            <div class="row col-md-4 mx-auto text-center" id="iconsGroup">
+              <div>
+                <div class="iconAnimation"><i class="devicon-javascript-plain colored skillsIcon" id="js"></i>
+                  <p class="iconText">JavasCript</p>
+                </div>
+                <div class="iconAnimation"><i class="devicon-html5-plain-wordmark colored skillsIcon" id="html5Icon"></i>
+                  <p class="iconText">HTML5</p>
+                </div>
+                <div class="iconAnimation"><i class="devicon-css3-plain-wordmark colored skillsIcon" id="css3"></i>
+                  <p class="iconText">CSS3</p>
+                </div>
+              </div>
+              <div>
+                <div class="iconAnimation"><i class="devicon-angularjs-plain colored skillsIcon" id="angular"></i>
+                  <p class="iconText">Angular</p>
+                </div>
+                <div class="iconAnimation"><i class="devicon-nodejs-plain-wordmark colored skillsIcon" id="nodejs"></i>
+                  <p class="iconText">Node.js</p>
+                </div>
+                <div class="iconAnimation"><i class="devicon-github-plain-wordmark skillsIcon" id="github"></i>
+                  <p class="iconText">GitHub</p>
+                </div>
+              </div>
+              <div>
+                <div class="iconAnimation"><i class="devicon-git-plain-wordmark colored skillsIcon" id="git"></i>
+                  <p class="iconText">Git</p>
+                </div>
+                <div class="iconAnimation"><i class="devicon-bootstrap-plain-wordmark colored skillsIcon" id="bootstrap"></i>
+                  <p class="iconText">Bootstrap</p>
+                </div>
+                <div class="iconAnimation"><i class="devicon-visualstudio-plain colored skillsIcon" id="visualStudio"></i>
+                  <p class="iconText">Visual Studio Code</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  <!-- Cierre sección proyectos -->
+      <!-- Cierre sección habilidades -->
 
-  <title>Harvest vase</title>
-  <link href="https://fonts.googleapis.com/css?family=Bentham|Playfair+Display|Raleway:400,500|Suranna|Trocchi" rel="stylesheet">
-  </head>
+      <!-- Inicio sección contacto -->
 
-  <!-- Inicio sesión habilidades -->
-  <div class="container-fluid" id="skills">
-    <div class="row col-md-4 mx-auto text-center" id="iconsGroup">
-      <div>
-      <div class="iconAnimation"><i class="devicon-javascript-plain colored skillsIcon" id="js"></i> <p>JavasCript</p></div>
-      <div class="iconAnimation"><i class="devicon-html5-plain-wordmark colored skillsIcon" id="html5Icon"></i><p>HTML5</p></div>
-      <div class="iconAnimation"><i class="devicon-css3-plain-wordmark colored skillsIcon" id="css3"></i><p>CSS3</p></div>
-    </div>
-    <div>
-      <div class="iconAnimation"><i class="devicon-angularjs-plain colored skillsIcon" id="angular"></i><p>Angular</p></div>
-      <div class="iconAnimation"><i class="devicon-nodejs-plain-wordmark colored skillsIcon" id="nodejs"></i><p>Node.js</p></div>
-      <div class="iconAnimation"><i class="devicon-github-plain-wordmark colored skillsIcon" id="github"></i><p>GitHub</p></div>
-    </div>
-    <div>
-      <div class="iconAnimation"><i class="devicon-git-plain-wordmark colored skillsIcon" id="git"></i><p>Git</p></div>
-      <div class="iconAnimation"><i class="devicon-bootstrap-plain-wordmark colored skillsIcon" id="bootstrap"></i><p>Bootstrap</p></div>
-      <div class="iconAnimation"><i class="devicon-visualstudio-plain colored skillsIcon" id="visualStudio"></i><p>Visual Studio Code</p></div>
-    </div>
-    </div>
-  </div>
-  </section>
-  <!-- Cierre sesión habilidades -->
+      <section id="contact">
+        <div class="stars">
+          <div class="twinkling">
+            <div class="row" id="marg">
+              <div class="col-md-12 mx-auto text-center">
+                <i class="fab fa-linkedin contactIcon"></i>
+                <i class="fab fa-github-square contactIcon"></i>
+                <i class="fas fa-envelope contactIcon"></i>
+              </div>
+            </div>
+            <div class="img-fluid" alt="Responsive image" id="laptopDiv">
+              <img src="../assets/img/frontenddeveloper-e1483738375569.png" class="img-fluid" id="developerImg" alt="Responsive image">
+            </div>
+          </div>
+        </div>
+      </section>
 
-  <!-- Bootstrap -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+      <!-- Cierre sección contacto -->
 
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <!-- Bootstrap -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
-  <script src="js/app.js"></script>
+      <script src="js/app.js"></script>
 </body>
 
 </html>

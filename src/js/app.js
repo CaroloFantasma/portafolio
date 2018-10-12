@@ -40,3 +40,7 @@ function skills() {
   location.href = '#skills';
 }
 
+function contact() {
+  location.href = '#contact';
+}
+
