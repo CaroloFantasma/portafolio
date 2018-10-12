@@ -343,19 +343,7 @@ figure.snip1256.hover figcaption {
 /* About me */
 #aboutMe {
   width: 100%;
-  height: 100%;
-  padding-top: 5.5%;
-}
-
-.cardAboutMe {
-  width: 30%;
-  height: 33.4em;
-  margin-left: 25%;
-}
-
-.cardImg {
-  height: 15em;
-  width: 55%;
+  padding-top: 10%;
 }
 
 .cardProyectGroup {
@@ -460,6 +448,20 @@ width: 55%;
 
   .cardImg {
     height: 10em;
+  }
+
+  .containerAboutme {
+    display: flex;
+    flex-direction: row;
+    max-width: 700px;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  .textAboutme {
+    padding-left: 10px;
+    border-left: 1px solid #f1f1f1;
   }
 }
 
@@ -592,4 +594,61 @@ div.container-fluid{
   padding-bottom: 10em;
 }
 
+/* Card styles */
+
+.containerAboutme {
+  max-width: 320px;
+  display: block;
+  margin: 0 auto;
+  background-color: #Fafafa;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+  border: 1px solid #e1e1e1;
+  border-radius: 3px;
+
+}
+
+.imageAboutme {
+  max-width: 90%;
+  border-radius: 3px;
+}
+
+.textAboutme {
+  margin: 10px;
+}
+
+h1 {
+  color: #000000;
+  font-size: 40px;
+  font-family: 'Fjalla One', sans-serif;  
+  font-weight: 300;
+}
+
+
+.aboutmeText {
+  color: #000000;
+  font: 20px/26px;
+  font-family: 'Fjalla One', sans-serif;
+  text-align: justify;
+  padding-right: 7%;
+}
+
+h1 {
+  margin-left: 10px;
+  text-align: center;
+}
+
+@media screen and (min-width: 650px) {
+  .containerAboutme {
+    display: flex;
+    flex-direction: row;
+    max-width: 700px;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  .textAboutme {
+    padding-left: 10px;
+    border-left: 1px solid #f1f1f1;
+  }
+}
 
