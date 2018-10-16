@@ -25,7 +25,7 @@
       <div class="navbar navbar-expand-lg nav" id="menu">
         <div class="nav-header">
           <div class="nav-title">
-            <a onclick="navBarMenu()">Carolina Lastra</a>
+            <a id="carolo" onclick="navBarMenu()">Carolina Lastra</a>
           </div>
         </div>
         <div class="nav-btn">
@@ -55,8 +55,12 @@
   <div class="stars">
     <div class="twinkling">
       <div class="clouds">
+          <div class="img-fluid" alt="Responsive image" id="laptopDiv">
+              <img src="assets/img/frontenddeveloper-e1483738375569.png" class="img-fluid" id="developerImg" alt="Responsive image">
+            </div>
       </div>
     </div>
+  </div>
     <!-- Cierre image -->
     <!-- Cierre primera pantalla -->
 
@@ -66,15 +70,15 @@
         <div class="twinkling">">
           <div class="containerAboutme">
             <div class="imageAboutme">
-              <img src="assets/img/Carolo - copia.jpg" height="330" width="317">
+              <img src="assets/img/Carolo - copia.jpg" id="caroloImg" height="330" width="317">
             </div>
             <div class="textAboutme">
-              <h1>Carolina Lastra</h1>
+              <h1 id="caroloTitle">Carolina Lastra</h1>
               <p class="aboutmeText">Front-end developer de Laboratoria Chile y traductora inglés-castellano.
                 Observadora y detallista, me desenvuelvo muy bien trabajando tanto en equipo como individualmente.
                 Puntual y responsable.</p>
               <div>
-                <a href="../cv/Carolina Lastra - Front-end.pdf"> <button>Ver curriculum</button></a>
+                <a href="cv/Carolina Lastra - Front-end.pdf"> <button class="curriculumBtn">Ver curriculum</button></a>
               </div>
             </div>
 
@@ -132,7 +136,6 @@
           </div>
         </div>
       </div>
-
       <!-- Cierre sección proyectos -->
 
       <!-- Inicio sección habilidades -->
@@ -142,21 +145,21 @@
             <div class="twinkling">
               <div class="row col-md-4 mx-auto text-center" id="iconsGroup">
                 <div>
-                  <div class="iconAnimation"><i class="devicon-javascript-plain colored skillsIcon" id="js"></i>
+                  <div class="iconAnimation"><i class="devicon-javascript-plain skillsIcon" id="js"></i>
                     <p class="iconText">JavasCript</p>
                   </div>
-                  <div class="iconAnimation"><i class="devicon-html5-plain-wordmark colored skillsIcon" id="html5Icon"></i>
+                  <div class="iconAnimation"><i class="devicon-html5-plain-wordmark skillsIcon" id="html5Icon"></i>
                     <p class="iconText">HTML5</p>
                   </div>
-                  <div class="iconAnimation"><i class="devicon-css3-plain-wordmark colored skillsIcon" id="css3"></i>
+                  <div class="iconAnimation"><i class="devicon-css3-plain-wordmark skillsIcon" id="css3"></i>
                     <p class="iconText">CSS3</p>
                   </div>
                 </div>
                 <div>
-                  <div class="iconAnimation"><i class="devicon-angularjs-plain colored skillsIcon" id="angular"></i>
+                  <div class="iconAnimation"><i class="devicon-angularjs-plain skillsIcon" id="angular"></i>
                     <p class="iconText">Angular</p>
                   </div>
-                  <div class="iconAnimation"><i class="devicon-nodejs-plain-wordmark colored skillsIcon" id="nodejs"></i>
+                  <div class="iconAnimation"><i class="devicon-nodejs-plain-wordmark skillsIcon" id="nodejs"></i>
                     <p class="iconText">Node.js</p>
                   </div>
                   <div class="iconAnimation"><i class="devicon-github-plain-wordmark skillsIcon" id="github"></i>
@@ -164,13 +167,13 @@
                   </div>
                 </div>
                 <div>
-                  <div class="iconAnimation"><i class="devicon-git-plain-wordmark colored skillsIcon" id="git"></i>
+                  <div class="iconAnimation"><i class="devicon-git-plain-wordmark skillsIcon" id="git"></i>
                     <p class="iconText">Git</p>
                   </div>
-                  <div class="iconAnimation"><i class="devicon-bootstrap-plain-wordmark colored skillsIcon" id="bootstrap"></i>
+                  <div class="iconAnimation"><i class="devicon-bootstrap-plain-wordmark skillsIcon" id="bootstrap"><a href=""></a></i>
                     <p class="iconText">Bootstrap</p>
                   </div>
-                  <div class="iconAnimation"><i class="devicon-visualstudio-plain colored skillsIcon" id="visualStudio"></i>
+                  <div class="iconAnimation"><i class="devicon-visualstudio-plain skillsIcon" id="visualStudio"></i>
                     <p class="iconText">Visual Studio Code</p>
                   </div>
                 </div>
@@ -182,7 +185,6 @@
       <!-- Cierre sección habilidades -->
 
       <!-- Inicio sección contacto -->
-
       <section id="contact">
         <div class="stars">
           <div class="twinkling">
@@ -193,13 +195,9 @@
                 <i class="fas fa-envelope contactIcon"></i>
               </div>
             </div>
-            <div class="img-fluid" alt="Responsive image" id="laptopDiv">
-              <img src="assets/img/frontenddeveloper-e1483738375569.png" class="img-fluid" id="developerImg" alt="Responsive image">
-            </div>
           </div>
         </div>
       </section>
-
       <!-- Cierre sección contacto -->
 
       <!-- Bootstrap -->
@@ -211,8 +209,6 @@
         crossorigin="anonymous"></script>
 
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-
       <script src="js/app.js"></script>
 </body>
 

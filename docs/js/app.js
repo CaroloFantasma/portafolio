@@ -1,7 +1,6 @@
 AOS.init();
 
-
-// Animación texto
+// Animación título
 $(document).ready(function() {
   let mouseX, mouseY;
   let ww = $(window).width();
