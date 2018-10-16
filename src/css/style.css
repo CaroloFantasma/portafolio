@@ -29,7 +29,7 @@ body {
   font-size: 22px;
   color: #fff;
 	padding: 18px 15px 10px 10px;
-	font-family: 'Archivo Narrow', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-family: 'Sacramento', cursive;
   font-size: 2.2em;
   cursor: pointer; 
@@ -60,6 +60,13 @@ body {
 
 .nav > #nav-check {
   display: none;
+}
+
+#carolo {
+  font-family: 'Fjalla One', sans-serif;;
+  font-weight: normal;
+  font-size: 28px;
+  color: #Fafafa;
 }
 
 @media (max-width:600px) {
@@ -121,10 +128,10 @@ body {
 }
 
 #developerImg {
-  width: 30%;
+  width: 25%;
   left: 0;
   bottom: 0;
-  position: relative;
+  position: absolute;
 }
 
 #developerDiv {
@@ -360,16 +367,18 @@ figure.snip1256.hover figcaption {
   border-radius: 10%;
 }
 
-#projects {
+/* #projects {
   width: 100%;
-}
+} */
 
 #skills {
-  padding-top: 5em;
+  padding-top: 7em;
+  height: 100vh;
 }
 
 #contact {
-  padding-top: 7em;
+  padding-top: 5em;
+  height: 100vh;
 }
 
 #iconsGroup {
@@ -416,22 +425,37 @@ width: 55%;
 
 @media (min-width: 320px) and (max-width: 480px) {
   #developerImg {
-    margin-top: 22.5em;
-    margin-left: 2.3em;
-    width: 75%;
+    width: 100%;
   }
 
+  #aboutMe {
+    max-width: 80%;
+    margin-left: 2em;
+  }
+
+  #caroloTitle {
+    font-size: 24px;
+  }
+
+  #caroloImg {
+    width: 80%;
+    height: 90%;  
+    margin: .5em 0 0 2.5em;
+    border-radius: 3px;
+}
+
   .title {
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     letter-spacing: 1px;
     padding-left: 0%;
     line-height: 40px;
     padding-top: 1.8em;
+    padding-bottom: .1em;
   }
 
   .subtitle {
-    font-size: 10px;
+    font-size: 16px;
     margin-left: 0;
     text-align: center;
     padding-top: 1.8em;
@@ -460,6 +484,10 @@ width: 55%;
     padding-left: 10px;
     border-left: 1px solid #f1f1f1;
   }
+
+  #projects {
+    margin-left: 2.5em;
+  } 
 }
 
 
@@ -484,9 +512,9 @@ width: 55%;
 	overflow: hidden;
 	box-shadow: 0 5px 1px 0px rgba(34, 23, 23, 0.6);
 	transform: translatey(0px);
-  animation: float 6s ease-in-out infinite;
-  font-size: 65px;
-  margin: .5em;
+  animation: float 4s ease-in-out infinite;
+  font-size: 50px;
+  margin: .3em;
   background-color: transparent;
   color: #Fafafa;
 }
@@ -495,11 +523,11 @@ width: 55%;
   color: #Fafafa;
 }
 
-div.row{
+div.row {
   margin-right: 0px;
 }
 
-div.container-fluid{
+div.container-fluid {
   padding-right: 0px;
 }
 
@@ -632,6 +660,25 @@ h1 {
 h1 {
   margin-left: 10px;
   text-align: center;
+}
+
+.curriculumBtn {
+  border-radius: 2px;
+  padding: 0.5em 1em;
+  font-size: 14px;
+  font-family: 'Fjalla One', sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  display: inline-block;
+  background-color: #e23d45;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  margin-left: 8em;
+ }
+
+.curriculumBtn:hover {
+  background-color: #c5222a;
 }
 
 @media screen and (min-width: 650px) {
