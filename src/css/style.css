@@ -90,13 +90,10 @@ body {
 }
 
 #lastImg {
-  width: 40%;
-  height: 40%;
-  margin-left: 30%;
-  margin-right: auto;
-  bottom: 0;
-  position: absolute;
+  width: 18em;
   position: -ms-page;
+  bottom: 0;
+  text-align: center;
 }
 
 @media (max-width:600px) {
@@ -412,8 +409,18 @@ figure.snip1256.hover figcaption {
 
 .iconAnimation{
   display: inline-block;
+  text-align: center;
 }
 
+.iconContacto{
+  display: inline-block;
+
+}
+
+.iconsgroup{
+  margin-top: 3em;
+  padding-right: 0;
+}
 @media (max-width: 768px) {
 	.nav > .nav-links > a {
 	padding: 15px 10px 14px 13px;
@@ -468,9 +475,6 @@ figure.snip1256.hover figcaption {
     font-size: 16px;
   }
 
-  #cvBtn {
-    margin-left: 4.5em;
-    }
 
   #caroloTitle {
     font-size: 24px;
@@ -583,6 +587,10 @@ figure.snip1256.hover figcaption {
   }
 }
 
+.pro{
+  text-align: center;
+}
+
 @media (max-width: 375px) {
   .nav > .nav-links > a {
     font-size: 23px;
@@ -599,16 +607,6 @@ figure.snip1256.hover figcaption {
 
   #sub2 {
     margin-top: 1em;
-  }
-
-  figure.snip1256 {
-    margin-left: 5em;
-    margin-top: 1em;
-    width: 100%;
-  }
-
-  #firstProject {
-    margin-top: 7em;
   }
 
   figure.snip1256 p {
@@ -714,7 +712,6 @@ div.container-fluid {
   text-align: center;
   font-size: 60px;
   color: #Fafafa;
-  margin: 1em 1em 0 0;
 }
 
 /* Card styles */
@@ -772,7 +769,7 @@ h1 {
   cursor: pointer;
   border: none;
   border-radius: 3px;
-  margin-left: 8em;
+  
  }
 
 .curriculumBtn:hover {
@@ -796,17 +793,7 @@ h1 {
 /* End card styles */
 
 @media (max-width: 320px) {
-  #firstProject {
-    margin-top: .2em;
-  }
-
-  figure.snip1256 {
-    margin-left: 1em;
-    margin-top: 1em;
-    width: 100%;
-  }
-
-  .subtitleSections {
+    .subtitleSections {
     text-align: center;
     padding-bottom: 1em;
   }
@@ -833,16 +820,7 @@ h1 {
 }
 
 @media (max-width: 320px) {
-  #firstProject {
-    margin-top: 0em;
-  }
-
-   figure.snip1256 {
-    margin-left: 2.5em;
-    margin-top: 0;
-    width: 100%;
-  }
-
+  
   .subtitleSections {
     text-align: center;
     padding-bottom: 1.5em;
@@ -873,42 +851,23 @@ h1 {
     font-size: 35px;
     margin-top: .5em;
   } 
-
-  #lastImg {
-    width: 100%;
-  }
 }
 
-@media (max-width: 360px) {
-  #firstProject {
-    margin-top: 0em;
-  }
-
-   figure.snip1256 {
-    margin-left: 3.6em;
-    margin-top: 0;
-    width: 100%;
-  }
+.footer{
+  margin-top: 1.5em;
 }
+
 
 @media (max-width: 411px) {
-  #firstProject {
-    margin-top: 0em;
-  }
-
-   figure.snip1256 {
-    margin-left: 5.6em;
-    margin-top: 0;
-    width: 100%;
-  }
-
   #sub2 {
     margin-top: 3em;
   }
 }
 
-.iconContact1 {
-  margin-left: 4.4em;
+.iconContact {
+  margin-left: 1em;
+  margin-right: 1em;
+  text-align: center;
 }
 
 .contactIcon:hover {
