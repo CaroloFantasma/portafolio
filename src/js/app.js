@@ -1,5 +1,14 @@
 AOS.init();
 
+//  Animación about me
+$('.containerAboutme').AniView(options);
+
+//  Animación proyectos
+$(document).ready(function(){
+  $('.dff').AniView();
+});
+
+
 // Animación título
 $(document).ready(function() {
   let mouseX, mouseY;
@@ -23,6 +32,7 @@ $('.hover').mouseleave(
   }
 );
 
+
 function aboutMe() {
   location.href = '#aboutMe';
 }
@@ -41,5 +51,10 @@ function skills() {
 
 function contact() {
   location.href = '#contact';
+}
+
+var options = {
+  animateThreshold: 100,
+  scrollPollInterval: 20
 }
 

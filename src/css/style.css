@@ -590,6 +590,7 @@ figure.snip1256.hover figcaption {
   margin-right: 1.5em;
   margin-top: 1em;
   background-color: transparent;
+  color: #Fafafa;
 }
 
 @media (max-width: 640px) {
@@ -733,6 +734,7 @@ div.container-fluid {
   text-align: center;
   font-size: 60px;
   color: #Fafafa;
+
 }
 
 /* Card styles */
