@@ -92,9 +92,10 @@ body {
 #lastImg {
   width: 40%;
   height: 40%;
-  margin-left: auto;
+  margin-left: 30%;
   margin-right: auto;
   bottom: 0;
+  position: absolute;
   position: -ms-page;
 }
 
@@ -428,7 +429,7 @@ figure.snip1256.hover figcaption {
   }
 
   figure.snip1256 {
-    margin-left: 3em;
+    margin-left: 2.7em;
     margin-top: 1em;
     width: 100%;
   }
@@ -596,8 +597,12 @@ figure.snip1256.hover figcaption {
     font-size: 22px;
   }
 
+  #sub2 {
+    margin-top: 1em;
+  }
+
   figure.snip1256 {
-    margin-left: 2em;
+    margin-left: 5em;
     margin-top: 1em;
     width: 100%;
   }
@@ -796,7 +801,7 @@ h1 {
   }
 
   figure.snip1256 {
-    margin-left: 2.5em;
+    margin-left: 1em;
     margin-top: 1em;
     width: 100%;
   }
@@ -824,6 +829,81 @@ h1 {
     display: inline-block;
     font-size: 50px;
     margin-top: 1em;
+  }
+}
+
+@media (max-width: 320px) {
+  #firstProject {
+    margin-top: 0em;
+  }
+
+   figure.snip1256 {
+    margin-left: 2.5em;
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .subtitleSections {
+    text-align: center;
+    padding-bottom: 1.5em;
+
+  }
+
+  #skills {
+    padding-top: 5em;
+  }
+
+  .skillsIcon {
+    margin-left: .5em;
+    margin-right: .5em;
+    font-size: 45px;
+    color: #fafafa;
+  }
+  
+  .iconText {
+    font-size: 14px;
+  }
+
+  #contact {
+    margin-top: .5em;
+  }
+
+  .contactIcon {
+    display: inline-block;
+    font-size: 35px;
+    margin-top: .5em;
+  } 
+
+  #lastImg {
+    width: 100%;
+  }
+}
+
+@media (max-width: 360px) {
+  #firstProject {
+    margin-top: 0em;
+  }
+
+   figure.snip1256 {
+    margin-left: 3.6em;
+    margin-top: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 411px) {
+  #firstProject {
+    margin-top: 0em;
+  }
+
+   figure.snip1256 {
+    margin-left: 5.6em;
+    margin-top: 0;
+    width: 100%;
+  }
+
+  #sub2 {
+    margin-top: 3em;
   }
 }
 
