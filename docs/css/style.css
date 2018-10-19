@@ -7,9 +7,23 @@ body {
   box-sizing: border-box;
 }
 
+.subtitleSections {
+  color: #Fafafa;
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 40px;
+  padding-bottom: .4em;
+}
+
+#sub2 {
+  padding-top: 2.8em;
+}
+
 #proyectos {
   padding-top: 6.5em;
+  text-align: center;
 }
+
 
 .nav {
   height: 3.9em;
@@ -27,7 +41,7 @@ body {
 .nav > .nav-header > .nav-title {
   display: inline-block;
   font-size: 22px;
-  color: #fff;
+  color: #fafafa;
 	padding: 18px 15px 10px 10px;
 	font-family: 'Raleway', sans-serif;
 	font-family: 'Sacramento', cursive;
@@ -48,7 +62,7 @@ body {
   display: inline-block;
   padding: 15px 10px 14px 120px;
   text-decoration: none;
-	color: #efefef;
+	color: #fafafa;
 	font-family: 'Fjalla One', sans-serif;
   font-size: 1.2em;
   cursor: pointer;
@@ -65,8 +79,23 @@ body {
 #carolo {
   font-family: 'Fjalla One', sans-serif;;
   font-weight: normal;
-  font-size: 28px;
+  font-size: 22px;
   color: #Fafafa;
+  padding: 15px 10px 14px 75px;
+
+}
+
+#carolo:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#lastImg {
+  width: 40%;
+  height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 0;
+  position: -ms-page;
 }
 
 @media (max-width:600px) {
@@ -250,9 +279,11 @@ figure.snip1256 {
   font-family: 'Raleway', Arial, sans-serif;
   color: #000000;
   position: relative;
-  float: left;
+  display: inline-block;
   overflow: hidden;
-  margin: 4em 2.2em 0 0;
+  margin-top: 2em;
+  margin-left: 0.8em;
+  margin-right: 0.8em;
   max-width: 15em;
   width: 15em;
   text-align: left;
@@ -367,10 +398,6 @@ figure.snip1256.hover figcaption {
   border-radius: 10%;
 }
 
-/* #projects {
-  width: 100%;
-} */
-
 #skills {
   padding-top: 7em;
   height: 100vh;
@@ -379,10 +406,11 @@ figure.snip1256.hover figcaption {
 #contact {
   padding-top: 5em;
   height: 100vh;
+  position: relative;
 }
 
-#iconsGroup {
-width: 55%;
+.iconAnimation{
+  display: inline-block;
 }
 
 @media (max-width: 768px) {
@@ -399,6 +427,12 @@ width: 55%;
     margin-top: 0;
   }
 
+  figure.snip1256 {
+    margin-left: 3em;
+    margin-top: 1em;
+    width: 100%;
+  }
+
   #developerImg {
     margin-top: 31em;
     line-height: 20px;
@@ -412,15 +446,6 @@ width: 55%;
     margin-left: 0;
   }
 
-  .card {
-    width: 80%;
-    height: 28em;
-    margin-left: 10%;
-  }
-
-  .cardImg {
-    height: 12em;
-  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -429,9 +454,22 @@ width: 55%;
   }
 
   #aboutMe {
-    max-width: 80%;
-    margin-left: 2em;
+    max-width: 90%;
+    margin-left: 1.2em;
   }
+
+  .subtitleSections {
+    font-size: 28px;
+    margin-top: 1em;
+  }
+
+  .aboutmeText {
+    font-size: 16px;
+  }
+
+  #cvBtn {
+    margin-left: 4.5em;
+    }
 
   #caroloTitle {
     font-size: 24px;
@@ -443,6 +481,14 @@ width: 55%;
     margin: .5em 0 0 2.5em;
     border-radius: 3px;
 }
+
+  #firstProject {
+    margin-top: 0;
+  }
+
+  #firstProject {
+    margin-top: 0;
+  }
 
   .title {
     font-size: 50px;
@@ -487,9 +533,9 @@ width: 55%;
 
   #projects {
     margin-left: 2.5em;
+  
   } 
 }
-
 
 @keyframes float {
 	0% {
@@ -514,10 +560,61 @@ width: 55%;
 	transform: translatey(0px);
   animation: float 4s ease-in-out infinite;
   font-size: 50px;
-  margin: .3em;
+  margin-left:1.5em;
+  margin-right: 1.5em;
+  margin-top: 1em;
   background-color: transparent;
-  color: #Fafafa;
 }
+
+@media (max-width: 640px) {
+  .skillsIcon {
+    margin-left:0.8em;
+    margin-right: 0.8em;
+    margin-top: 0.5em;
+  }
+}
+
+@media (max-width: 430px) {
+  .skillsIcon {
+    margin-left:0.5em;
+    margin-right:0.5em;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .nav > .nav-links > a {
+    font-size: 23px;
+    margin-left: .6em;
+  }
+
+  #aboutMe {
+    margin-top: 1em;
+  }
+
+  .textAboutme {
+    font-size: 22px;
+  }
+
+  figure.snip1256 {
+    margin-left: 2em;
+    margin-top: 1em;
+    width: 100%;
+  }
+
+  #firstProject {
+    margin-top: 7em;
+  }
+
+  figure.snip1256 p {
+    font-size: 20px;
+  }
+
+  figcaption {
+    height: 70em;;
+  }
+}
+
 
 .iconText {
   color: #Fafafa;
@@ -610,13 +707,9 @@ div.container-fluid {
 
 .contactIcon {
   text-align: center;
-  font-size: 78px;
+  font-size: 60px;
   color: #Fafafa;
   margin: 1em 1em 0 0;
-}
-
-#marg {
-  padding-bottom: 10em;
 }
 
 /* Card styles */
@@ -696,3 +789,48 @@ h1 {
   }
 }
 /* End card styles */
+
+@media (max-width: 320px) {
+  #firstProject {
+    margin-top: .2em;
+  }
+
+  figure.snip1256 {
+    margin-left: 2.5em;
+    margin-top: 1em;
+    width: 100%;
+  }
+
+  .subtitleSections {
+    text-align: center;
+    padding-bottom: 1em;
+  }
+
+  #skills {
+    padding-top: 3em;
+  }
+
+  .skillsIcon {
+    margin-left: .5em;
+    margin-right: .5em;
+    font-size: 40px;
+  }
+  
+  .iconText {
+    font-size: 10px;
+  }
+
+  .contactIcon {
+    display: inline-block;
+    font-size: 50px;
+    margin-top: 1em;
+  }
+}
+
+.iconContact1 {
+  margin-left: 4.4em;
+}
+
+.contactIcon:hover {
+  color: #c5222a;
+}
